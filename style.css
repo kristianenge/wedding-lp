@@ -57,7 +57,11 @@ body {
     line-height: 1.7;
     margin-top: 0rem;
   }
-  
+
+  .mobileinfo{
+    visibility: hidden;
+  }
+
   .container {
     max-width: 960px;
     margin: auto;
@@ -123,16 +127,31 @@ body {
     .showcase::after {
       height: 50vh;
     }
+
+    .mobileinfo{
+      visibility: visible;
+      color: rgb(191, 187, 187);
+    }
+
+    .mobileinfo div {
+      border-bottom: #333 dashed 1px;
+      padding: 1.2rem 1rem;
+    }
   
     .content {
-      top: 5%;
-      left: 50%;
+      color: rgb(29, 28, 28);
+      top: 30%;
+      left: 28%;
       margin-top: 5px;
     }
   
     .content .logo {
       height: 75px;
       width: 200px;
+      display: none;
+    }
+    .content .title {
+      display:none;
     }
   
     .content .text {
