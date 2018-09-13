@@ -126,12 +126,13 @@ body {
   
     .content {
       top: 5%;
+      left: 50%;
       margin-top: 5px;
     }
   
     .content .logo {
-      height: 140px;
-      width: 140px;
+      height: 75px;
+      width: 200px;
     }
   
     .content .text {
